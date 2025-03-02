@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrumentation Excellence</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #222 url('https://cdn.pixabay.com/photo/2016/11/19/12/42/control-room-1837758_1280.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background: linear-gradient(135deg, #000000, #333333);
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            z-index: 1000;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease, transform 0.2s;
+        }
+        nav ul li a:hover {
+            color: #ffcc00;
+            transform: scale(1.1);
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative;
+        }
+        header h1 {
+            font-size: 50px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        header h1:hover {
+            transform: scale(1.1);
+        }
+        section {
+            padding: 100px 20px;
+            font-size: 22px;
+            min-height: 100vh;
+        }
+        section p {
+            transition: transform 0.3s ease;
+        }
+        section p:hover {
+            transform: scale(1.1);
+        }
+        #about {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+        }
+        #contact {
+            background: linear-gradient(135deg, #3a3d40, #18191a);
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background: #ffcc00;
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease, transform 0.2s;
+        }
+        .btn:hover {
+            background: #ff9900;
+            transform: scale(1.05);
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            transition: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <h1>Empowering Precision: The Future of Instrumentation</h1>
+    </header>
+    <section id="about">
+        <p>Mastering Measurement: Instrumentation fuels innovation across industries, ensuring accuracy in automation, scientific research, and process control. Our expertise turns precision into progress.</p>
+        <a class="btn" href="#contact">Get in Touch</a>
+    </section>
+    <section id="contact">
+        <p>Let's Innovate Together: Whether it's sensors, automation, or data-driven solutions, reach out to us at instrumentation@example.com and be part of the revolution.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Precision Dynamics | Engineering the Future ⚙️</p>
+    </footer>
+</body>
+</html>
